@@ -1,0 +1,20 @@
+These are the main patches to the rsync source.
+(The changes to the manpages for correct hyphens
+and quotes is a bit big, so not included.)
+
+If you're wondering about the lack of patches, the
+explanation is that upstream has adopted most of them :-)
+
+logdir.diff             - fix the location of the logdir
+ssh-6-option.diff       - call ssh with -6 option if rsync was called with -6,
+                          ditto with -4
+CVE-2014-2855_infinite_loop_unknown_username.diff
+			- It was found that when rsync is configured to
+			  authenticate users, a remote attacker could send a
+			  request using an invalid username that, when
+			  processed by rsync, would cause the rsync daemon to
+			  enter an infinite loop. Multiple requests to a single
+			  server using rsync with authentication of users could
+			  result in a denial of service through CPU exhaustion.
+			  http://seclists.org/oss-sec/2014/q2/110
+

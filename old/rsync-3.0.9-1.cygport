@@ -1,0 +1,21 @@
+DESCRIPTION="Rsync"
+HOMEPAGE="http://rsync.samba.org/"
+SRC_URI="http://rsync.samba.org/ftp/rsync/src/${P}.tar.gz"
+
+DIFF_EXCLUDES="*.test"
+
+src_compile() {
+    cd ${S}
+    cygautoreconf
+    ln configure ${B}/configure.sh
+    cd ${B}
+    cygconf
+    cygmake
+}
+
+src_install() {
+    cd ${B}
+    cyginstall
+    cd ${S}
+    doman rsync.1 rsyncd.conf.5
+}

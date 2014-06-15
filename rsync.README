@@ -25,11 +25,9 @@ Mini-HOWTO for using the program as a service:
 Runtime requirements:
   libgcc1
   libiconv2
-  libpopt0
 
 Build requirements:
-  libiconv
-  popt
+  libiconv2-devel
 
 Canonical homepage:
   http://freecode.com/projects/rsync

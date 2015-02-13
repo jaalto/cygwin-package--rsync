@@ -73,6 +73,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 3.1.1-1 -----
+- New upstream release 2015-02-13 Jari Aalto
+
 ----- version 3.1.0-1 -----
 - New upstream release 2014-06-17 Jari Aalto
 
@@ -159,5 +162,5 @@ No patch used.
 
 Licensed under GPL v2 or later
 Cygwin port maintained by Jari Aalto
-Copyright (C) 2014 Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2014-2015 Jari Aalto <jari.aalto@cante.net>
 Copyright (C) 2002-2014 Lapo Luchini <lapo@lapo.it>

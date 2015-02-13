@@ -1,0 +1,2 @@
+tag1: rsync
+  https://packages.debian.org/unstable/rsync pregexp:orig.tar file:rsync_3.1.1.orig.tar.gz new: x:

@@ -6,4 +6,4 @@ differences in the files across the link, without requiring
 that both sets of files are present at one of the ends of the
 link beforehand."
 category: Net
-requires: libgcc1 libiconv2
+requires: libiconv2

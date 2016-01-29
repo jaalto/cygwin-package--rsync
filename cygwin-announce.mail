@@ -1,11 +1,11 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: rsync 3.1.1-1 -- fast, versatile file synchronizing tool
+Subject: Updated: rsync 3.1.2-1 -- fast, versatile file synchronizing tool
 --text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://freecode.com/projects/rsync
+Homepage: https://rsync.samba.org
 License : GPL-3+
 
 Fast and versatile file-copying tool which can copy locally and
@@ -20,6 +20,8 @@ CHANGES SINCE LAST RELEASE
 
 See homepage for release announcement and *-NEWS files at
 http://rsync.samba.org/ftp/rsync/src/
+
+Includes security fix CVE-2014-9512
 
 INSTALL OR UPGRADE NOTES
 ========================

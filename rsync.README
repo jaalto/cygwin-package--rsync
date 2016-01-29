@@ -73,6 +73,25 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 3.1.2-1 -----
+- New upstream release 2016-01-29 Jari Aalto
+- Includes security fix CVE-2014-9512
+- Debian 3.1.1 patches included
+
+  logdir.patch        
+  - fix the location of the logdir
+
+  ssh-6-option.patch
+
+  - call ssh with -6 option if rsync was called 
+    with -6, ditto with -4
+
+  noatime.patch       
+
+  - add an option --noatime to request the kernel not to update files'
+    access times while reading them. See
+    https://bugzilla.samba.org/show_bug.cgi?id=7249#c5
+
 ----- version 3.1.1-1 -----
 - New upstream release 2015-02-13 Jari Aalto
 
@@ -112,7 +131,7 @@ New upstream release.
 
 ----- version 2.6.9-2 -----
 - Security fix patch (kudos to David Rothenberger for pointing it to me):
-  http://www.suse.de/%7Ekrahmer/rsync-2.6.9-fname-obo.diff
+  http://www.suse.de/%7Ekrahmer/rsync-2.6.9-fname-obo.diffq
 
 ----- version 2.6.9-1 -----
 No patch used.
@@ -162,5 +181,5 @@ No patch used.
 
 Licensed under GPL v2 or later
 Cygwin port maintained by Jari Aalto
-Copyright (C) 2014-2015 Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2014-2016 Jari Aalto <jari.aalto@cante.net>
 Copyright (C) 2002-2014 Lapo Luchini <lapo@lapo.it>

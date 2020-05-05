@@ -30,7 +30,6 @@ Build requirements:
   libiconv2-devel
 
 Canonical homepage:
-  http://freecode.com/projects/rsync
   http://rsync.samba.org
   https://packages.debian.org/unstable/rsync
 
@@ -47,7 +46,7 @@ IRC channel:
 
 Upstream contact:
   Maintainer:
-  Bugs:
+  Bugs: https://bugzilla.samba.org/enter_bug.cgi?product=rsync
 
 License:
   GPL-3+

@@ -37,6 +37,9 @@ Canonical download:
   http://rsync.samba.org/ftp/rsync
 
 Version control repository:
+  git clone git://git.samba.org/rsync.git
+  ./support/git-set-file-times         # optional
+  ./prepare-source
 
 Mailing list:
 

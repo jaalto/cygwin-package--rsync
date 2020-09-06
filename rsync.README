@@ -81,6 +81,7 @@ Port Notes:
 
 ----- version 3.2.3+20200903+git9f9240b-2 -----
 - New upstream release 2020-09-06 Jari Aalto
+- Compile with python36-commonmark
 
 ----- version 3.2.3+20200903+git9f9240b-1 -----
 - New upstream release 2020-09-05 Jari Aalto

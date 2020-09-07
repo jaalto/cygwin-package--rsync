@@ -1,0 +1,3 @@
+disable_reconfigure_req.diff
+skip_devices_test.patch
+perl_shebang.patch

@@ -64,7 +64,7 @@ Language:
 ------------------------------------------
 
 Build instructions:
-  unpack rsync-*-src.tar.bz2
+  unpack rsync-*-src.tar.*
     if you use setup to install this source package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
@@ -94,15 +94,15 @@ Port Notes:
 - Includes security fix CVE-2014-9512
 - Debian 3.1.1 patches included
 
-  logdir.patch        
+  logdir.patch
   - fix the location of the logdir
 
   ssh-6-option.patch
 
-  - call ssh with -6 option if rsync was called 
+  - call ssh with -6 option if rsync was called
     with -6, ditto with -4
 
-  noatime.patch       
+  noatime.patch
 
   - add an option --noatime to request the kernel not to update files'
     access times while reading them. See

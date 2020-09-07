@@ -79,6 +79,13 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 3.2.3+20200903+git9f9240b-3 -----
+- New upstream release 2020-09-07 Jari Aalto
+- Debian 3.2.3 patches included in sources, but NOT relevant to Cygwin
+  + disable_reconfigure_req.diff - Remove need to run reconfigure target
+  + perl_shebang.patch - Removes usage of env on perl shebang as per Debian Policy 10.4
+  + skip_devices_test.patch - Skip "devices" test as it fails on kfreebsd and hurd
+
 ----- version 3.2.3+20200903+git9f9240b-2 -----
 - New upstream release 2020-09-06 Jari Aalto
 - Compile with python36-commonmark

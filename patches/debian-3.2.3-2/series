@@ -1,3 +1,4 @@
-disable_reconfigure_req.diff
-skip_devices_test.patch
-perl_shebang.patch
+# NOTE: Not relevant to Cygwin
+# disable_reconfigure_req.diff
+# skip_devices_test.patch
+# perl_shebang.patch

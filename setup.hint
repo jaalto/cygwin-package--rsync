@@ -6,4 +6,4 @@ differences in the files across the link, without requiring
 that both sets of files are present at one of the ends of the
 link beforehand."
 category: Net
-requires: libiconv2
+requires: bash libiconv2 liblz4_1 libzstd1 libssl1.1
